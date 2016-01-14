@@ -1,0 +1,10 @@
+header, section, aside, address, footer {
+	min-height: 50px;
+	background-color: #ddd;
+}
+
+section section,  aside section, section address, section div section{
+	height: 100px;
+	background-color: grey;
+}
+

@@ -17,7 +17,7 @@
 .center {
   text-align: center;
 }
-.center div, .center header, .center section, .center article, .center aside, .center main, .center footer, .center nav {
+.center div, .center header, .center section, .center article, .center aside, .center main, .center footer, .center nav , .center address{
   float: none;
   display: inline-block;
 }
@@ -64,6 +64,6 @@
   .col-9 {width: 74.25%;}
   .col-10 {width: 82.83%;}
   .col-11 {width: 91.41%;}
-  .col-12 {width: 100%;}
+  .col-12 {width: 100%; margin-left:0;}
 
 }
