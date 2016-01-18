@@ -1,10 +1,41 @@
 header, section, aside, address, footer {
-	min-height: 50px;
 	background-color: #ddd;
 }
 
 section section,  aside section, section address, section div section{
-	height: 100px;
 	background-color: grey;
 }
 
+.icon img {
+    width: 35%; /* you can use % */
+    height: auto;
+}
+
+.icon {
+	padding: 20px 0;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#info {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#portfolio {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#about {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#contact {
+	width: 80%;
+	margin: 0 auto;
+}
