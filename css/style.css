@@ -39,6 +39,16 @@ section section,  aside section, section address, section div section{
 	width: 80%;
 	margin: 0 auto;
 }
+.nw-icons {
+	display: inline;
+	padding: -40;
+}
+#nw-icons img{
+	display: inline;
+	height: 50px;
+	width: 50px;
+	color: #99c731;
+}
 .map{
     overflow:hidden;
     position:relative;
