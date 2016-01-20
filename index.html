@@ -2,25 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Beanstalk</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<figure>logga
-			<img src="" alt="">		
-		</figure>
-		<nav>
-			
-		</nav>
+	<header class="row">
+		<section>
+			<figure class="logo">
+				<img id="logo-img-header" src="img/Beanstalk_logo_01-02.png" alt="beanstalk logo">		
+			</figure>
+			<div id="menuToggler" onclick="toggleMenu()"></div>
+			<nav class="navbar">
+			   	<ul id="menu">
+			   		<li>
+			   			<a href="#info">What we do</a>
+			   		</li>
+			   		<li>
+			   			<a href="#portfolio">Portfolio</a>
+			   		</li>
+			   		<li>
+			   			<a href="#about">About</a>
+			   		</li>
+			   		<li>
+			   			<a href="#contact">Contact</a>
+			   		</li>
+			   	</ul>
+			</nav>
+		</section>
 	</header>
 
 	<main>
-		<div>background
-				<img src="" alt="">
-		</div>
+		<div class="bg-header"></div>
 
 		<div class="wrapper" >
 				<article id="info" class="row">
@@ -66,7 +81,7 @@
 		
 			<div>background</div>
 		
-		<div id="about" class="wrapper">
+		<div id="about" class="wrapper"> <!-- flytta ner about id till aside -->
 			<aside class="row">
 				<section class="col-3"></section>
 				<section class="col-3"></section>
@@ -99,10 +114,25 @@
 	</main>
 
   <footer>
-  	<figure><img src="" alt="">
-  	logga
-  	</figure>
+  	<figure id="logo-footer">
+		<img id="logo-img-footer" src="img/Beanstalk_logo_01-02.png" alt="beanstalk logo">		
+	</figure>
+	<div id="copyright">
+		<p>&copy; 2016 Beanstalk</p>
+	</div>
   </footer>
+
+
+	<script>
+		function toggleMenu() {
+			var el = document.getElementById("menu");
+			if(el.className == "showing") {
+				el.className = "";
+			} else {
+				el.className = "showing";
+			}
+		}
+	</script>
 
 </body>
 </html>
