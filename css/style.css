@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+	aside, address {
+	background-color: #ddd;
+}
+
+section section,  aside section, section address, section div section{
+	background-color: grey;
+}
+
+=======
+>>>>>>> e971fb1f2eccc276792d9a3eeeeacade6003fc7e
 header {
 	border-bottom: 1px solid #ddd;	
 	height: 105px;
