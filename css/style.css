@@ -1,4 +1,8 @@
-aside, address {
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+	aside, address {
 	background-color: #ddd;
 }
 
