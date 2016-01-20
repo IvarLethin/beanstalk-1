@@ -158,12 +158,12 @@ footer {
 
 
 
-.icon img {
+.about img {
     width: 35%; /* you can use % */
     height: auto;
 }
 
-.icon {
+.about {
 	padding: 20px 0;
 }
 
