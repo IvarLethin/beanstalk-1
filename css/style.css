@@ -19,6 +19,12 @@ header > section {
 	height: 400px;
 }
 
+.bg {
+  background-image: url(../img/version_05-10.png);
+  background-size: cover;
+  height: 200px;
+}
+
 /* logo */
 
 .logo {
@@ -32,6 +38,12 @@ header > section {
 
 #logo-img-footer {
 	height: 80px;	
+}
+
+#logo-name {
+  float: left;
+  margin: 34px 3%;
+  color: #54544a;
 }
 
 /* navbar */
@@ -55,8 +67,7 @@ header > section {
 
 .navbar ul li {
 	float: none;
-	
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 
 .navbar a {
@@ -123,6 +134,8 @@ ul.showing {
 		display: none;	
 	}	
 }
+
+/* footer */
 
 footer {
 	
