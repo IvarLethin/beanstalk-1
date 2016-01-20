@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -10,6 +11,8 @@ section section,  aside section, section address, section div section{
 	background-color: grey;
 }
 
+=======
+>>>>>>> e971fb1f2eccc276792d9a3eeeeacade6003fc7e
 header {
 	border-bottom: 1px solid #ddd;	
 	height: 105px;
@@ -31,6 +34,12 @@ header > section {
 	height: 400px;
 }
 
+.bg {
+  background-image: url(../img/version_05-10.png);
+  background-size: cover;
+  height: 200px;
+}
+
 /* logo */
 
 .logo {
@@ -44,6 +53,12 @@ header > section {
 
 #logo-img-footer {
 	height: 80px;	
+}
+
+#logo-name {
+  float: left;
+  margin: 34px 3%;
+  color: #54544a;
 }
 
 /* navbar */
@@ -67,8 +82,7 @@ header > section {
 
 .navbar ul li {
 	float: none;
-	
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 
 .navbar a {
@@ -136,6 +150,8 @@ ul.showing {
 	}	
 }
 
+/* footer */
+
 footer {
 	
 }
@@ -160,15 +176,18 @@ footer {
 }
 
 
-
-
-.icon img {
-    width: 35%; /* you can use % */
+.about img {
+    width: 75px; /* you can use % */
     height: auto;
 }
 
-.icon {
+.about figure {
 	padding: 20px 0;
+	text-align: center;
+}
+
+.about {
+	text-align: center;
 }
 
 /* lägg flytta margin 0 auto till en gemensam */
@@ -183,8 +202,38 @@ footer {
 }
 
 #portfolio {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
+}
+
+#portfolio figcaption{
+	color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 10px;
+}
+
+#portfolio figcaption {
+	text-align: left;
+}
+
+#portfolio img {
+	width: 100%;
+	margin: 0 auto;
+	-webkit-filter: brightness(60%);
+  	filter: brightness(60%);
+
+	-webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    	transition: all 0.5s ease; 
+}
+
+#portfolio img:hover {
+	cursor: pointer;
+	-webkit-filter: brightness(100%);
+  	filter: brightness(100%);
 }
 
 #about {
