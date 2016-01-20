@@ -27,6 +27,12 @@ header > section {
 	height: 400px;
 }
 
+.bg {
+  background-image: url(../img/version_05-10.png);
+  background-size: cover;
+  height: 200px;
+}
+
 /* logo */
 
 .logo {
