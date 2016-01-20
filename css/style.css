@@ -172,8 +172,6 @@ ul.showing {
 	.bg {
 	  height: 200px;
 	}
-
-
 }
 /* footer */
 
@@ -249,20 +247,20 @@ footer {
 #portfolio img {
 	width: 100%;
 	margin: 0 auto;
-	-webkit-filter: brightness(60%);
-  	filter: brightness(60%);
+	-webkit-filter: brightness(100%);
+  	filter: brightness(100%);
 
-	-webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    	transition: all 0.5s ease; 
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    	transition: all 0.5s ease;
 }
 
 #portfolio img:hover {
 	cursor: pointer;
-	-webkit-filter: brightness(100%);
-  	filter: brightness(100%);
+	-webkit-filter: brightness(40%);
+  	filter: brightness(40%);
 }
 
 #about {
