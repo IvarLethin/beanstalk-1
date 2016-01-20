@@ -1,21 +1,11 @@
-<<<<<<< HEAD
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #f5f5f5;
 }
 
-	aside, address {
-	background-color: #ddd;
-}
-
-section section,  aside section, section address, section div section{
-	background-color: grey;
-}
-
-=======
->>>>>>> e971fb1f2eccc276792d9a3eeeeacade6003fc7e
 header {
-	border-bottom: 1px solid #ddd;	
 	height: 105px;
+	background-color: #f0f0f0;
 }
 
 header > section {
@@ -25,13 +15,29 @@ header > section {
 	margin: 0 auto;
 }
 
+p {
+	line-height: 1.5em;
+}
+
 
 /* background */
 
 .bg-header {
 	background-image: url(../img/version_05-10.png);
 	background-size: cover;
-	height: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.bg-header h1 {
+	margin-top: 0px;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 2.5em;
+	padding-top: 105px;
+	text-shadow: 5px 0px 12px rgba(0, 0, 0, 1);
+	font-weight: 400;
+
 }
 
 .bg {
@@ -57,8 +63,11 @@ header > section {
 
 #logo-name {
   float: left;
-  margin: 34px 3%;
+  margin: 27.5px 3%;
   color: #54544a;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-bottom: 0px;
 }
 
 /* navbar */
@@ -118,7 +127,7 @@ ul.showing {
 	/* navbar */
 
 	.navbar {
-		margin: 35px 3% 0px 0;
+		margin: 32.5px 3% 0px 0;
 		width: auto;
 		clear: none;
 	}
@@ -148,12 +157,29 @@ ul.showing {
 	#menuToggler {
 		display: none;	
 	}	
-}
 
+	/* background */
+	
+	.bg-header {
+		height: 400px;
+	}
+	
+	.bg-header h1 {
+		font-size: 4em;
+		padding-top: 150px;
+	}
+	
+	.bg {
+	  height: 200px;
+	}
+
+
+}
 /* footer */
 
 footer {
-	
+	border-top: 1px solid #e6e6e6;
+	background-color: #f0f0f0;
 }
 
 #logo-footer {
@@ -173,16 +199,18 @@ footer {
 
 #copyright p {
 	text-align: center;
+	margin: 0;
+	font-size: 0.8em;
 }
 
 
 .about img {
-    width: 75px; /* you can use % */
+    width: 60px; /* you can use % */
     height: auto;
 }
 
 .about figure {
-	padding: 20px 0;
+	
 	text-align: center;
 }
 
@@ -194,6 +222,7 @@ footer {
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
+	padding: 60px 0;
 }
 
 #info {
