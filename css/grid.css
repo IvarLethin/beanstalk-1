@@ -9,17 +9,7 @@
 .row:after {
   content: "";
   clear: both;
-  display: block;
-}
-
-/* center content inside a container */
-
-.center {
-  text-align: center;
-}
-.center div, .center header, .center section, .center article, .center aside, .center main, .center footer, .center nav , .center address{
-  float: none;
-  display: inline-block;
+  display: table;
 }
 
 /* hide column */
@@ -27,7 +17,6 @@
 .hide {
   visibility: hidden; 
 }
-
 
 /* --------------------
   mobile
@@ -39,12 +28,11 @@
   margin-bottom: 20px;
 }
 
-
 /* --------------------
   desktop
 -------------------- */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 730px) {
   [class*="col-"] {
     margin-left: 3%;
   }

@@ -2,80 +2,137 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Beanstalk</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-		<header class="col-12 row center">
-			<figure>logga
-				<img src="" alt="">		
+	<header class="row">
+		<section>
+			<figure class="logo">
+				<img id="logo-img-header" src="img/Beanstalk_logo_01-02.png" alt="beanstalk logo">		
 			</figure>
-			<nav class="col-1">
-				
+			<div id="menuToggler" onclick="toggleMenu()"></div>
+			<nav class="navbar">
+			   	<ul id="menu">
+			   		<li>
+			   			<a href="#info">What we do</a>
+			   		</li>
+			   		<li>
+			   			<a href="#portfolio">Portfolio</a>
+			   		</li>
+			   		<li>
+			   			<a href="#about">About</a>
+			   		</li>
+			   		<li>
+			   			<a href="#contact">Contact</a>
+			   		</li>
+			   	</ul>
 			</nav>
-		</header>
+		</section>
+	</header>
 
 	<main>
-		<div>background
-				<img src="" alt="">
+		<div class="bg-header"></div>
+
+		<div class="wrapper" >
+				<article id="info" class="row">
+					<section class="col-4 icon" >
+						<figure>
+							<img src="icons/info.png" alt="Info">
+						</figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ullam aliquam, magnam dolor, inventore amet veniam, corporis alias 	explicabo recusandae quo! Culpa similique quaerat obcaecati aut totam incidunt, earum perspiciatis.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident earum autem repellat recusandae aliquid odit blanditiis velit 	dignissimos consequatur facere corporis repudiandae, quae, possimus iste repellendus adipisci sit deserunt!</p>
+					</section>
+					<section class="col-4 icon">
+						<figure>
+							<img src="icons/tools.png" alt="Info">
+						</figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorum fugiat voluptate placeat error eos aliquam quisquam laborum iusto 	distinctio. Quos quibusdam at, eveniet eligendi error non delectus officia neque?</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorum fugiat voluptate placeat error eos aliquam quisquam laborum iusto 	distinctio. Quos quibusdam at, eveniet eligendi error non delectus officia neque?</p>
+					</section>
+					<section class="col-4 icon">
+						<figure>
+							<img src="icons/ideas.png" alt="Info">
+						</figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, odio. Provident quas vero et maxime, at, similique, laudantium dolorum, 	voluptate temporibus consequuntur porro eligendi maiores! Sunt non tempora soluta mollitia!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorum fugiat voluptate placeat error eos aliquam quisquam laborum iusto 	distinctio. Quos quibusdam at, eveniet eligendi error non delectus officia neque?</p>
+					</section>
+				</article>
 		</div>
 
-		<section class="col-12 row center">
-			
-				<section class="col-3">
-					
-				</section>
-				<section class="col-3">
-					
-				</section>
-				<section class="col-3">
-					
-				</section>
-		</section>
-
+		<div>background</div>
+	
+		<div class="wrapper">
+			<article id="portfolio">
+				<section class="row">
+					<section class="col-6"></section>
+					<section class="col-6"></section>
+				</section>	
 		
-		<div>background</div>
-
-		<section class="col-12 row">
-			<div class="row center">
-				<section class="col-4"></section>
-				<section class="col-4"></section>
-			</div>	
-
-			<div class="row center">
-				<section class="col-4"></section>
-				<section class="col-4"></section>
-			</div>
-		</section>
+				<section class="row">
+					<section class="col-6"></section>
+					<section class="col-6"></section>
+				</section>
+			</article>
+		</div>
+		
+			<div>background</div>
+		
+		<div id="about" class="wrapper"> <!-- flytta ner about id till aside -->
+			<aside class="row">
+				<section class="col-3"></section>
+				<section class="col-3"></section>
+				<section class="col-3"></section>
+				<section class="col-3"></section>
+			</aside>
+		</div>
 	
 		<div>background</div>
-	
-		<aside class="col-12 row center">
-			<section class="col-2"></section>
-			<section class="col-2"></section>
-			<section class="col-2"></section>
-			<section class="col-2"></section>
-		</aside>
-	
-		<div>background</div>
-
-		<section class="col-12 row center">
-			<section class="col-4"></section>
-			<section class="col-4">
-				
-			</section>
-		</section>
-
+			
+		<div class="wrapper">
+			<article id="contact" class="row">
+				<section class="col-6"><h3>Contact us:</h3>
+				<p>Mobile: 555-321 808 42<br>
+				Mailbox@Beanstalk.com<br>
+				</p>
+				<h3>Network with us:</h3>
+				<div id="nw-icons">
+					<a href="https://www.facebook.com"><img src="images/facebook.png"></a>
+					<a href="https://www.instagram.com"><img src="images/instagram.png"></a>
+					<a href="https://twitter.com"><img src="images/twitter.png"></a>
+				</div>
+				<h3>Visit us:</h3>
+				<p>Ervallakroken 15<br>
+				12466 Bandhagen
+				</p></section>
+				<section class="col-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.4460351743776!2d18.024435967432986!3d59.25869682976798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7742d1a12995%3A0xff2f6400195bfc30!2sErvallakroken+15%2C+124+66+Bandhagen!5e0!3m2!1ssv!2sse!4v1453135978284" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></section>
+			</article>
+		</div>
 	</main>
-  <footer class="col-12 row center">
-  	<figure><img src="" alt="">
-  	logga
-  	</figure>
-  	
 
-  </footer>	
+  <footer>
+  	<figure id="logo-footer">
+		<img id="logo-img-footer" src="img/Beanstalk_logo_01-02.png" alt="beanstalk logo">		
+	</figure>
+	<div id="copyright">
+		<p>&copy; 2016 Beanstalk</p>
+	</div>
+  </footer>
+
+
+	<script>
+		function toggleMenu() {
+			var el = document.getElementById("menu");
+			if(el.className == "showing") {
+				el.className = "";
+			} else {
+				el.className = "showing";
+			}
+		}
+	</script>
 
 </body>
 </html>
