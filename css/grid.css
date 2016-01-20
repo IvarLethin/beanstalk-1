@@ -32,7 +32,7 @@
   desktop
 -------------------- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 730px) {
   [class*="col-"] {
     margin-left: 3%;
   }
