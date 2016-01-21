@@ -21,12 +21,12 @@ p {
 
 /* background */
 
-.bg-header {
+/*.bg-header {
 	background-image: url(../img/version_05-10.png);
 	background-size: cover;
 	height: 400px;
 	margin: 0 auto;
-}
+}*/
 
 .bg-header h1 {
 	margin-top: 0px;
@@ -38,10 +38,36 @@ p {
 	font-weight: 400;
 }
 
-.bg {
+/*.bg {
   background-image: url(../img/version_05-10.png);
   background-size: cover;
   height: 200px;
+}*/
+
+.bg, .bg-header {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-header {
+  height: 400px;
+  background-image: url(../img/version_05-10.png);
+  margin: 0 auto;
+}
+
+
+.bg1 {
+  background-image: url(../img/version_05-11.png);
+}
+
+.bg2 {
+  background-image: url(../img/version_05-11.png);
+}
+
+.bg3 {
+  background-image: url(../img/version_05-11.png);
 }
 
 /* logo */
@@ -64,7 +90,7 @@ p {
   margin: 27.5px 3%;
   color: #54544a;
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 0px;
 }
 
@@ -165,7 +191,7 @@ footer {
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
-	padding: 60px 0;
+	padding: 40px 0 0 0;
 }
 
 #about {
@@ -334,7 +360,7 @@ footer {
 	}
 	
 	.bg {
-	  height: 200px;
+	  height: 400px;
 	}
 
 	.item {
