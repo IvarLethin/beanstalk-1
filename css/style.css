@@ -21,28 +21,17 @@ p {
 
 /* background */
 
-/*.bg-header {
-	background-image: url(../img/version_05-10.png);
-	background-size: cover;
-	height: 400px;
-	margin: 0 auto;
-}*/
-
 .bg-header h1 {
+	font-family: 'Varela Round', sans-serif;
+	opacity: 1;
 	margin-top: 0px;
 	text-align: center;
-	color: #f2f2f2;
+	color: #f4f4f4;
 	font-size: 2.5em;
 	padding-top: 105px;
-	text-shadow: 5px 0px 12px rgba(0, 0, 0, 1);
+	text-shadow: 0px 0px 15px rgba(217, 228, 133, 0.9);
 	font-weight: 400;
 }
-
-/*.bg {
-  background-image: url(../img/version_05-10.png);
-  background-size: cover;
-  height: 200px;
-}*/
 
 .bg, .bg-header {
   height: 300px;
@@ -56,7 +45,6 @@ p {
   background-image: url(../img/version_05-10.png);
   margin: 0 auto;
 }
-
 
 .bg1 {
   background-image: url(../img/version_05-11.png);
@@ -144,7 +132,6 @@ p {
 ul.showing {
 	max-height: 20em;	
 }
-
 
 /* footer */
 
@@ -360,7 +347,7 @@ footer {
 	}
 	
 	.bg {
-	  height: 400px;
+	  height: 300px;
 	}
 
 	.item {
@@ -371,12 +358,15 @@ footer {
 	#selfie a {
 		font-size: 0.8em;
 	}
+
+	.wrapper {
+		padding: 70px 0 30px 0;
+	}
 }
 
 @media only screen and (min-width: 900px) {
 
-	.item {  
- 
+	.item {
     padding-top: 15%;
     font-size:1.5em;
 } 
