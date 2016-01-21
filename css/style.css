@@ -133,6 +133,13 @@ ul.showing {
 	max-height: 20em;	
 }
 
+.section-header {
+  text-align: center;
+  color: #54544a;
+  font-size: 2em;
+  margin: 0 0 40px 0;
+}
+
 /* footer */
 
 footer {
@@ -212,9 +219,9 @@ footer {
     right: 0;
     bottom: 0;
     top: 0;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-bottom: 4px;
-    font-size:1.5em;
+    font-size:1em;
     opacity: 0;
     border-radius: 5px;
     -webkit-transition: all 300ms ease-out;  
@@ -230,8 +237,9 @@ footer {
 }
 
 #selfie {
-	width: 80%;
+	width: 83%;
 	margin: 0 auto;
+    text-align: center;
 }
 
 #selfie img {
@@ -245,8 +253,8 @@ footer {
   	filter: grayscale(1);
 }
 
-#selfie aside {
-	text-align: center;
+#selfie p {
+  margin-top: 0; 
 }
 
 #selfie a {
@@ -260,7 +268,7 @@ footer {
 }
 
 #contact {
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
 #contact a {
@@ -299,7 +307,14 @@ footer {
 }
 
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 400px) {
+  .item {
+    padding-top: 12%;
+    font-size:1.2em;
+  } 
+}
+
+@media only screen and (min-width: 730px) {
  	
 	/* navbar */
 
@@ -360,19 +375,18 @@ footer {
 	}
 
 	.wrapper {
-		padding: 70px 0 30px 0;
+		padding: 50px 0 30px 0;
 	}
 }
 
 @media only screen and (min-width: 900px) {
 
-	.item {
+  .item {
     padding-top: 15%;
     font-size:1.5em;
-} 
+  } 
 
-#selfie a {
+  #selfie a {
 	font-size: 1em;
+  }
 }
-
-
