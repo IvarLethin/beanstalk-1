@@ -19,6 +19,7 @@ p {
 header {
     height: 105px;
     background-color: #f0f0f0;
+    position: relative;
 }
 
 header > section {
@@ -61,6 +62,8 @@ header > section {
     clear: both;
     width: 100%;
     margin: 0;
+    position: absolute;
+    top: 100%;
 }
 
 .navbar ul {
@@ -171,6 +174,10 @@ ul.showing {
 #about {
     width: 75%;
     margin: 0 auto;
+}
+
+.about abbr {
+	border: none;
 }
 
 .about img {
@@ -313,7 +320,7 @@ ul.showing {
   FOOTER
 ------------------- */
 
-footer {
+.footer {
     border-top: 1px solid #e6e6e6;
     background-color: #f0f0f0;
 }
@@ -356,6 +363,7 @@ footer {
         margin: 32.5px 3% 0px 0;
         width: auto;
         clear: none;
+        position: static;
     }
     .navbar ul {
         background-color: transparent;
